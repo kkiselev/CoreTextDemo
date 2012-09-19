@@ -124,7 +124,7 @@
     self.clippingViews = [NSArray arrayWithArray: clippingViewsMutable];
     [self.textView setDelegate: self];
     [self.textView setClippingPaths: [self clipingPathsWithViews: self.clippingViews]];
-    [self.textView setColumnsNumber: 1];
+    [self.textView setColumnsNumber: 2];
     [self.textView setColumnPadding: 20.0f];
     [self.textView updateWithAttributedString: [self getAttributedText]];
     [self.textView setBackgroundColor: [UIColor whiteColor]];
